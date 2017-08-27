@@ -1,0 +1,162 @@
+set 18, 2016 9:17:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMA합ES: Server version:        Apache Tomcat/7.0.70
+set 18, 2016 9:17:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMA합ES: Server built:          Jun 15 2016 16:27:45 UTC
+set 18, 2016 9:17:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMA합ES: Server number:         7.0.70.0
+set 18, 2016 9:17:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMA합ES: OS Name:               Windows 10
+set 18, 2016 9:17:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMA합ES: OS Version:            10.0
+set 18, 2016 9:17:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMA합ES: Architecture:          amd64
+set 18, 2016 9:17:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMA합ES: Java Home:             C:\Program Files\Java\jdk1.8.0_73\jre
+set 18, 2016 9:17:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMA합ES: JVM Version:           1.8.0_73-b02
+set 18, 2016 9:17:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMA합ES: JVM Vendor:            Oracle Corporation
+set 18, 2016 9:17:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMA합ES: CATALINA_BASE:         C:/Java-JSP/apache-tomcat-7.0.70/apache-tomcat-7.0.70
+set 18, 2016 9:17:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMA합ES: CATALINA_HOME:         C:/Java-JSP/apache-tomcat-7.0.70/apache-tomcat-7.0.70
+set 18, 2016 9:17:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMA합ES: Command line argument: -Djava.util.logging.config.file=C:/Java-JSP/apache-tomcat-7.0.70/apache-tomcat-7.0.70/conf/logging.properties
+set 18, 2016 9:17:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMA합ES: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+set 18, 2016 9:17:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMA합ES: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+set 18, 2016 9:17:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMA합ES: Command line argument: -Djava.endorsed.dirs=C:/Java-JSP/apache-tomcat-7.0.70/apache-tomcat-7.0.70/endorsed
+set 18, 2016 9:17:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMA합ES: Command line argument: -Dcatalina.base=C:/Java-JSP/apache-tomcat-7.0.70/apache-tomcat-7.0.70
+set 18, 2016 9:17:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMA합ES: Command line argument: -Dcatalina.home=C:/Java-JSP/apache-tomcat-7.0.70/apache-tomcat-7.0.70
+set 18, 2016 9:17:13 PM org.apache.catalina.startup.VersionLoggerListener log
+INFORMA합ES: Command line argument: -Djava.io.tmpdir=C:/Java-JSP/apache-tomcat-7.0.70/apache-tomcat-7.0.70/temp
+set 18, 2016 9:17:13 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMA합ES: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_73\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\PB\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\PB\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit;C:\Program Files\Microsoft SQL Server\110\Tools\Binn;C:\Program Files\Common Files\Autodesk Shared;C:\Program Files (x86)\Autodesk\Backburner;C:\Program Files\Microsoft SQL Server\120\DTS\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn;C:\Program Files\Microsoft SQL Server\120\Tools\Binn;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\ManagementStudio;C:\Program Files (x86)\Microsoft SQL Server\120\DTS\Binn;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\Program Files\Java\jdk1.8.0_73\bin;C:\Maven\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;.
+set 18, 2016 9:17:15 PM org.apache.coyote.AbstractProtocol init
+INFORMA합ES: Initializing ProtocolHandler ["http-bio-8080"]
+set 18, 2016 9:17:15 PM org.apache.coyote.AbstractProtocol init
+GRAVE: Failed to initialize end point associated with ProtocolHandler ["http-bio-8080"]
+java.net.BindException: Address already in use: JVM_Bind <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:650)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:435)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:838)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:642)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:667)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+set 18, 2016 9:17:15 PM org.apache.catalina.core.StandardService initInternal
+GRAVE: Failed to initialize connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to initialize component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:106)
+	at org.apache.catalina.core.StandardService.initInternal(StandardService.java:560)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:838)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:642)
+	at org.apache.catalina.startup.Catalina.load(Catalina.java:667)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:253)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:427)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler initialization failed
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:980)
+	at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:102)
+	... 12 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind <null>:8080
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:413)
+	at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:650)
+	at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:435)
+	at org.apache.coyote.http11.AbstractHttp11JsseProtocol.init(AbstractHttp11JsseProtocol.java:119)
+	at org.apache.catalina.connector.Connector.initInternal(Connector.java:978)
+	... 13 more
+Caused by: java.net.BindException: Address already in use: JVM_Bind
+	at java.net.DualStackPlainSocketImpl.bind0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketBind(DualStackPlainSocketImpl.java:106)
+	at java.net.AbstractPlainSocketImpl.bind(AbstractPlainSocketImpl.java:387)
+	at java.net.PlainSocketImpl.bind(PlainSocketImpl.java:190)
+	at java.net.ServerSocket.bind(ServerSocket.java:375)
+	at java.net.ServerSocket.<init>(ServerSocket.java:237)
+	at java.net.ServerSocket.<init>(ServerSocket.java:181)
+	at org.apache.tomcat.util.net.DefaultServerSocketFactory.createSocket(DefaultServerSocketFactory.java:49)
+	at org.apache.tomcat.util.net.JIoEndpoint.bind(JIoEndpoint.java:400)
+	... 17 more
+
+set 18, 2016 9:17:15 PM org.apache.coyote.AbstractProtocol init
+INFORMA합ES: Initializing ProtocolHandler ["ajp-bio-8009"]
+set 18, 2016 9:17:15 PM org.apache.catalina.startup.Catalina load
+INFORMA합ES: Initialization processed in 4417 ms
+set 18, 2016 9:17:15 PM org.apache.catalina.core.StandardService startInternal
+INFORMA합ES: Starting service Catalina
+set 18, 2016 9:17:15 PM org.apache.catalina.core.StandardEngine startInternal
+INFORMA합ES: Starting Servlet Engine: Apache Tomcat/7.0.70
+set 18, 2016 9:17:15 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMA합ES: Deploying web application directory C:\Java-JSP\apache-tomcat-7.0.70\apache-tomcat-7.0.70\webapps\docs
+set 18, 2016 9:17:17 PM org.apache.catalina.util.SessionIdGeneratorBase createSecureRandom
+INFORMA합ES: Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [204] milliseconds.
+set 18, 2016 9:17:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMA합ES: Deployment of web application directory C:\Java-JSP\apache-tomcat-7.0.70\apache-tomcat-7.0.70\webapps\docs has finished in 1,638 ms
+set 18, 2016 9:17:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMA합ES: Deploying web application directory C:\Java-JSP\apache-tomcat-7.0.70\apache-tomcat-7.0.70\webapps\examples
+set 18, 2016 9:17:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMA합ES: Deployment of web application directory C:\Java-JSP\apache-tomcat-7.0.70\apache-tomcat-7.0.70\webapps\examples has finished in 5,447 ms
+set 18, 2016 9:17:22 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMA합ES: Deploying web application directory C:\Java-JSP\apache-tomcat-7.0.70\apache-tomcat-7.0.70\webapps\host-manager
+set 18, 2016 9:17:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMA합ES: Deployment of web application directory C:\Java-JSP\apache-tomcat-7.0.70\apache-tomcat-7.0.70\webapps\host-manager has finished in 330 ms
+set 18, 2016 9:17:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMA합ES: Deploying web application directory C:\Java-JSP\apache-tomcat-7.0.70\apache-tomcat-7.0.70\webapps\manager
+set 18, 2016 9:17:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMA합ES: Deployment of web application directory C:\Java-JSP\apache-tomcat-7.0.70\apache-tomcat-7.0.70\webapps\manager has finished in 171 ms
+set 18, 2016 9:17:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMA합ES: Deploying web application directory C:\Java-JSP\apache-tomcat-7.0.70\apache-tomcat-7.0.70\webapps\ROOT
+set 18, 2016 9:17:23 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFORMA합ES: Deployment of web application directory C:\Java-JSP\apache-tomcat-7.0.70\apache-tomcat-7.0.70\webapps\ROOT has finished in 262 ms
+set 18, 2016 9:17:23 PM org.apache.coyote.AbstractProtocol start
+INFORMA합ES: Starting ProtocolHandler ["ajp-bio-8009"]
+set 18, 2016 9:17:23 PM org.apache.catalina.startup.Catalina start
+INFORMA합ES: Server startup in 8065 ms
+set 18, 2016 9:17:28 PM org.apache.catalina.core.StandardServer await
+INFORMA합ES: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+set 18, 2016 9:17:28 PM org.apache.coyote.AbstractProtocol pause
+INFORMA합ES: Pausing ProtocolHandler ["http-bio-8080"]
+set 18, 2016 9:17:28 PM org.apache.coyote.AbstractProtocol pause
+INFORMA합ES: Pausing ProtocolHandler ["ajp-bio-8009"]
+set 18, 2016 9:17:28 PM org.apache.catalina.core.StandardService stopInternal
+INFORMA합ES: Stopping service Catalina
+set 18, 2016 9:17:28 PM org.apache.coyote.AbstractProtocol stop
+INFORMA합ES: Stopping ProtocolHandler ["ajp-bio-8009"]
+set 18, 2016 9:17:28 PM org.apache.coyote.AbstractProtocol stop
+INFORMA합ES: Stopping ProtocolHandler ["http-bio-8080"]
+set 18, 2016 9:17:28 PM org.apache.coyote.AbstractProtocol destroy
+INFORMA합ES: Destroying ProtocolHandler ["http-bio-8080"]
+set 18, 2016 9:17:28 PM org.apache.coyote.AbstractProtocol destroy
+INFORMA합ES: Destroying ProtocolHandler ["ajp-bio-8009"]

@@ -1,0 +1,12 @@
+127.0.0.1 - - [25/Sep/2016:12:24:11 -0300] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [25/Sep/2016:12:24:16 -0300] "GET /lhegauWeb/sendParam.jsp HTTP/1.1" 200 3519
+0:0:0:0:0:0:0:1 - - [25/Sep/2016:12:24:18 -0300] "GET /lhegauWeb/getParam.jsp HTTP/1.1" 500 3669
+0:0:0:0:0:0:0:1 - - [25/Sep/2016:12:25:14 -0300] "GET /lhegauWeb/sendParam.jsp HTTP/1.1" 200 3519
+0:0:0:0:0:0:0:1 - - [25/Sep/2016:12:25:16 -0300] "GET /lhegauWeb/getParam.jsp HTTP/1.1" 200 3475
+0:0:0:0:0:0:0:1 - - [25/Sep/2016:12:26:15 -0300] "GET /lhegauWeb/sendParam.jsp HTTP/1.1" 200 3519
+0:0:0:0:0:0:0:1 - - [25/Sep/2016:12:26:17 -0300] "GET /lhegauWeb/getParam.jsp HTTP/1.1" 200 3491
+127.0.0.1 - - [25/Sep/2016:12:45:28 -0300] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [25/Sep/2016:12:45:31 -0300] "GET /lhegauWeb/clientRequest.jsp HTTP/1.1" 200 4630
+127.0.0.1 - - [25/Sep/2016:13:03:23 -0300] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [25/Sep/2016:13:03:26 -0300] "GET /lhegauWeb/inter.jsp HTTP/1.1" 200 3464
+0:0:0:0:0:0:0:1 - - [25/Sep/2016:13:09:35 -0300] "GET /lhegauWeb/interData.jsp HTTP/1.1" 200 3589
